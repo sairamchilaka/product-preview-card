@@ -1,0 +1,67 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(30, 38%, 92%);
+      font-size: 14px;
+    }
+    .container{
+      margin: 100px auto;
+      width: 500px;
+      height: 400px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: row;
+    }
+    img{
+      height: 400px;
+      width: 250px;
+      border-radius: 10px 0px 0px 10px;
+    }
+    .right{
+      padding: 20px;
+    }
+    .perfume{
+      font-family: Montserrat;
+      letter-spacing: 2px;
+      font-weight: bold;
+      color: hsl(228, 12%, 48%);
+    }
+    h1{
+      font-family: Fraunces;
+      font-weight: 700;
+    }
+    p{
+      font-family: Fraunces;
+      color: hsl(228, 12%, 48%);
+    }
+    .price{
+      display: flex;
+      flex-direction: row;
+    }
+    .discount{
+      color: hsl(158, 36%, 37%);
+    }
+    .original{
+      margin: auto;
+    }
+    .press{
+      background-color: hsl(158, 36%, 37%);
+      width: 200px;
+      height: 40px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+    }
+    .cart{
+      height: 14px;
+      width: 14px;
+      margin-left: 55px;
+      margin-right: 10px;
+    }
+    .btn-txt{
+      color: white;
+    }
